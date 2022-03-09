@@ -35,7 +35,7 @@ public class DataRead {
 				
 				Cell cell = row.getCell(j);
 				
-				System.out.println(cell);	
+				System.out.println(cellType);	
 				
 			}
 				
