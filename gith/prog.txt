@@ -21,7 +21,7 @@ public class DataRead {
 		
 		Workbook book = new XSSFWorkbook(fi);
 		
-		Sheet sh = book.getSheetAt(0);
+		Sheet sh = book.getSheetAt(0)'
 		
 		int rows = sh.getPhysicalNumberOfRows();
 		
@@ -34,10 +34,14 @@ public class DataRead {
 			for (int j = 0; j < row.getPhysicalNumberOfCells(); j++) {
 				
 				Cell cell = row.getCell(j);
+				System.out.println(cellType);	
+                                fixed
+
+
 				
-				System.out.println(cell);	
-                                         String str=cell.getcellType;
-                                   system.out.println("string value")
+                                  
+
+				
 				
 			}
 				
