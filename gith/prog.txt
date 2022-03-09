@@ -36,6 +36,8 @@ public class DataRead {
 				Cell cell = row.getCell(j);
 				
 				System.out.println(cell);	
+                                         String str=cell.getcellType;
+                                   system.out.println("string value")
 				
 			}
 				
